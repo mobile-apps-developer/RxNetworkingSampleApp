@@ -19,7 +19,24 @@ class ViewController: UIViewController {
             },
             onError: { error in
                 print(error)
+            }, onCompleted: {
+
+            }, onDisposed: {
+
             }
         )
+
+        RXHttpClient.postRequestObservable(urlString: "", postPameters: JSONDictionary())
+           .subscribe(onNext: { anyResponse in
+                   print(anyResponse)
+               },
+               onError: { error in
+                   print(error)
+               }, onCompleted: {
+
+               }, onDisposed: {
+
+               }
+           )
     }
 }

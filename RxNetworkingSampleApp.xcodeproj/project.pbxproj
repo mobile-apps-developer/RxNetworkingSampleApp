@@ -81,7 +81,6 @@
 		2DBF9ADA23B5EA9200005D29 /* RxNetworkingSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				2DBF9AFB23B6110B00005D29 /* TypeAliasses */,
 				2DBF9AEF23B5EB6600005D29 /* RxNetworking */,
 				2DBF9ADB23B5EA9200005D29 /* AppDelegate.swift */,
 				2DBF9ADD23B5EA9200005D29 /* SceneDelegate.swift */,
@@ -98,6 +97,7 @@
 		2DBF9AEF23B5EB6600005D29 /* RxNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				2DBF9AFB23B6110B00005D29 /* TypeAliasses */,
 				2DBF9AF023B5EB6600005D29 /* RXHttpClient.swift */,
 				2DBF9AF423B5ECC300005D29 /* Reachability.swift */,
 				2DBF9AF223B5EC8F00005D29 /* APIClient.swift */,
@@ -110,8 +110,7 @@
 			children = (
 				2DBF9AFC23B6110B00005D29 /* TypeAliasses.swift */,
 			);
-			name = TypeAliasses;
-			path = RxNetworking/TypeAliasses;
+			path = TypeAliasses;
 			sourceTree = "<group>";
 		};
 		B82761502D1A61B0C2A2154A /* Pods */ = {
